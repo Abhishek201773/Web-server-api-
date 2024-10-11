@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Finder | Identify Gender by Name</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Gender Finder</h1>
+        </header>
+        <section class="description">
+            <p>
+                Discover the likely gender of any name with our simple tool! Enter the first name below and get 
+                an instant gender prediction using our intelligent algorithm.
+            </p>
+        </section>
+        
+        <section class="form-section">
+            <form action="/post" method="post" aria-label="Gender prediction form">
+                <label for="name">Enter a First Name:</label>
+                <input type="text" id="name" placeholder="Enter your first name" name="name" required aria-required="true"> 
+                <button type="submit">Find Gender</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gender Finder. All rights reserved.</p>
+        <p>
+            Connect with us: 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
